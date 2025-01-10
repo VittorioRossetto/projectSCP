@@ -95,7 +95,7 @@ IntelliJ will automatically download dependencies. If not, go to the SBT tab (on
 1. Go to `Run > Edit Configurations`.
 2. Click the `+` icon and select `Application`.
 3. Set the following fields:
-    - **Main class**: `Main` Chose one between the 3 depending on what you want to test. 
+    - **Main class**: `Main` You can only chose `CoPurchaseAnalysisLocal.scala` to run locally
     - **Program arguments**: Leave empty.
     - **VM options**: Add the following if using Java 17:
       ```text
