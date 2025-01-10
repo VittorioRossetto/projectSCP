@@ -1,0 +1,12 @@
+out/
+**/out/*
+out
+
+.metals/
+.vscode/
+.idea/
+
+test.csv
+order_products.csv
+order_products_small.csv
+order_products_medium.csv

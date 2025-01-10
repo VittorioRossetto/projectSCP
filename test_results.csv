@@ -1,0 +1,19 @@
+Cluster Type,Workers Count,Input File,Output Directory,Start Time,End Time,Execution Time (s),CPU Utilization (%),Memory Utilization (GB),JAR Name
+Worker-based,2,order_products.csv,output_1736371421,2025-01-08 22:05:31,2025-01-08 22:23:28,1077,N/A,N/A,copurchaseanalysis_v1.0.jar
+Worker-based,2,order_products_small.csv,output_1736371476,2025-01-08 22:23:41,2025-01-08 22:24:25,44,N/A,N/A,copurchaseanalysis_v1.0.jar
+Worker-based,2,order_products_medium.csv,output_1736371531,2025-01-08 22:24:37,2025-01-08 22:25:19,42,N/A,N/A,copurchaseanalysis_v1.0.jar
+Worker-based,2,order_products.csv,output_1736371697,2025-01-08 22:25:31,2025-01-08 22:28:04,153,N/A,N/A,copurchaseanalysis_v1_1.jar
+Worker-based,2,order_products_small.csv,output_1736371758,2025-01-08 22:28:17,2025-01-08 22:29:06,49,N/A,N/A,copurchaseanalysis_v1_1.jar
+Worker-based,2,order_products_medium.csv,output_1736371822,2025-01-08 22:29:18,2025-01-08 22:30:10,52,N/A,N/A,copurchaseanalysis_v1_1.jar
+Worker-based,3,order_products.csv,output_1736372845,2025-01-08 22:35:15,2025-01-08 22:47:15,720,N/A,N/A,copurchaseanalysis_v1.0.jar
+Worker-based,3,order_products_small.csv,output_1736372896,2025-01-08 22:47:25,2025-01-08 22:48:06,41,N/A,N/A,copurchaseanalysis_v1.0.jar
+Worker-based,3,order_products_medium.csv,output_1736372947,2025-01-08 22:48:16,2025-01-08 22:48:57,41,N/A,N/A,copurchaseanalysis_v1.0.jar
+Worker-based,3,order_products.csv,output_1736373101,2025-01-08 22:49:07,2025-01-08 22:51:31,144,N/A,N/A,copurchaseanalysis_v1_1.jar
+Worker-based,3,order_products_small.csv,output_1736373160,2025-01-08 22:51:41,2025-01-08 22:52:30,49,N/A,N/A,copurchaseanalysis_v1_1.jar
+Worker-based,3,order_products_medium.csv,output_1736373216,2025-01-08 22:52:40,2025-01-08 22:53:26,46,N/A,N/A,copurchaseanalysis_v1_1.jar
+Single-node,1,order_products.csv,output_1736373628,2025-01-08 22:58:14,2025-01-08 23:00:17,123,N/A,N/A,copurchaseanalysis_v1.0.jar
+Single-node,1,order_products_small.csv,output_1736373701,2025-01-08 23:00:28,2025-01-08 23:01:31,63,N/A,N/A,copurchaseanalysis_v1.0.jar
+Single-node,1,order_products_medium.csv,output_1736373770,2025-01-08 23:01:41,2025-01-08 23:02:40,59,N/A,N/A,copurchaseanalysis_v1.0.jar
+Single-node,1,order_products.csv,output_1736373915,2025-01-08 23:02:50,2025-01-08 23:05:05,135,N/A,N/A,copurchaseanalysis_v1_1.jar
+Single-node,1,order_products_small.csv,output_1736373997,2025-01-08 23:05:15,2025-01-08 23:06:27,72,N/A,N/A,copurchaseanalysis_v1_1.jar
+Single-node,1,order_products_medium.csv,output_1736374076,2025-01-08 23:06:37,2025-01-08 23:07:46,69,N/A,N/A,copurchaseanalysis_v1_1.jar
