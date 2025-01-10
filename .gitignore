@@ -5,6 +5,7 @@ out
 .metals/
 .vscode/
 .idea/
+target/
 
 test.csv
 order_products.csv

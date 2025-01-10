@@ -71,6 +71,10 @@ This will create two new files: `order_products_small.csv` and `order_products_m
 
 ## How to Run
 
+---
+Please note: only CoPurchaseAnalysisLocal.scala is meant to be ran locally. to run the other ones you'll have to use Dataproc.
+---
+
 ### Run Locally with SBT
 To execute the program in local mode:
 ```bash
@@ -132,8 +136,11 @@ The JAR will be located in `target/scala-2.12/`.
 
 Upload the JAR and dataset to a GCS bucket:
 ```bash
-gsutil cp target/scala-2.12/copurchase-analysis_2.12-0.1.jar gs://$BUCKET/
+gsutil cp target/scala-2.12/<copurchase-analysis FDD version>.jar gs://$BUCKET/
+gsutil cp target/scala-2.12/<copurchase-analysis dataframe version>.jar gs://$BUCKET/
 gsutil cp order_products.csv gs://$BUCKET/
+gsutil cp order_products_small.csv gs://$BUCKET/
+gsutil cp order_products_medium.csv gs://$BUCKET/
 ```
 
 #### 3. Submit the Spark Job
@@ -171,7 +178,7 @@ chmod +x test_dataproc.sh
 ./test_dataproc.sh
 ```
 
-This script will handle creating the Dataproc cluster,  submitting the job, and retrieving the results. Ensure you have configured the script with your specific project details and paths.
+This script will handle creating the Dataproc cluster,  submitting the job, and retrieving the results. Ensure you have configured the script with your specific paths. Otherwise use the default ones. Results of the tests will be written in test_results.csv.
 
 ---
 
