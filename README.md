@@ -172,6 +172,7 @@ chmod +x test_dataproc.sh
 ```
 
 This script will handle creating the Dataproc cluster,  submitting the job, and retrieving the results. Ensure you have configured the script with your specific project details and paths.
+
 ---
 
 ## Example Output
