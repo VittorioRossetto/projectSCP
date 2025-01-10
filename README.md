@@ -26,7 +26,7 @@ This project implements a Co-Purchase Analysis using Apache Spark. It processes 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/VittorioRossetto/projectSCP
-cd copurchase-analysis
+cd projectscp
 ```
 
 ### 2. Install Dependencies
