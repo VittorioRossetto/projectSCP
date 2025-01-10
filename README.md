@@ -51,7 +51,7 @@ javaOptions ++= Seq(
 ---
 ## Dataset Generation
 
-To generate small and medium datasets from the original dataset, run the `generate_datasets.py` script. Ensure you have the original dataset file (`order_products.csv`) in the same directory as the script.
+To generate small and medium datasets from the original dataset, run the `generate_datasets.py` script. Ensure you have the original dataset file (`order_products.csv`) in the same directory as the script. You can download it here: [order_products.csv](https://liveunibo-my.sharepoint.com/:u:/g/personal/giuseppe_depalma2_unibo_it/EVi5ZjiIP_lCveGkwidpEMkBbS7s6cagNizxqMl95odubA?e=gNfxna).
 
 ### Steps to Generate Datasets
 
@@ -73,6 +73,7 @@ This will create two new files: `order_products_small.csv` and `order_products_m
 
 ---
 Please note: only CoPurchaseAnalysisLocal.scala is meant to be ran locally. to run the other ones you'll have to use Dataproc.
+
 ---
 
 ### Run Locally with SBT
