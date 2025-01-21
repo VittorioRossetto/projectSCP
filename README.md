@@ -113,8 +113,8 @@ If you wanna use preexisting bucket, you can assign values the following way:
 ```bash
 REGION="europe-west8"
 CLUSTER_NAME="cpacluster"
-JAR_PATHS=("gs://copurchasebucket/copurchaseanalysis_v1.0.jar" "gs://copurchasebucket/copurchaseanalysis_v1_1.jar") # Either one 
-INPUT_FILES=("gs://copurchasebucket/order_products.csv" "gs://copurchasebucket/order_products_small.csv" "gs://copurchasebucket/order_products_medium.csv") #Either one
+JAR_PATHS=("gs://copurchasebucket/copurchaseanalysis_v1.0.jar" "gs://copurchasebucket/copurchaseanalysis_v1_1.jar" "gs://copurchasebucket/copurchaseanalysis_v1_2.jar") # Either one 
+INPUT_FILES=("gs://copurchasebucket/order_products_small.csv" "gs://copurchasebucket/order_products_medium.csv" "gs://copurchasebucket/order_products.csv") #Either one
 OUTPUT_BUCKET="gs://copurchasebucket"
 RESULT_FILE="test_results.csv"
 ```
@@ -147,8 +147,9 @@ The JAR will be located in `target/scala-2.12/`.
 
 Upload the JAR and dataset to a GCS bucket:
 ```bash
-gsutil cp target/scala-2.12/<copurchase-analysis FDD version>.jar gs://$OUTPUT_BUCKET/
+gsutil cp target/scala-2.12/<copurchase-analysis RDD version>.jar gs://$OUTPUT_BUCKET/
 gsutil cp target/scala-2.12/<copurchase-analysis dataframe version>.jar gs://$OUTPUT_BUCKET/
+gsutil cp target/scala-2.12/<copurchase-analysis RDD reduce version>.jar gs://$OUTPUT_BUCKET/
 gsutil cp order_products.csv gs://$OUTPUT_BUCKET/
 gsutil cp order_products_small.csv gs://$OUTPUT_BUCKET/
 gsutil cp order_products_medium.csv gs://$OUTPUT_BUCKET/
@@ -229,7 +230,7 @@ set HADOOP_HOME=C:\path\to\winutils
 ---
 
 ## Contributors
-- [Vittorio Rossetto](https://github.com/your-username)
+- [Vittorio Rossetto](https://github.com/VittorioRossetto)
 
 
 
